@@ -1,0 +1,46 @@
+\name{ak135}
+\alias{ak135}
+\docType{data}
+\title{ak135 Earth Model
+}
+\description{
+Planet model using the data from the ak135 1-D model.
+}
+\usage{data(ak135)}
+\format{
+  List with following elements:
+  \describe{
+  \item{z}{Sample depths (km)}
+  \item{ vp  }{ Sample P wave velocities (km/s)
+ }\item{ vs  }{ Sample S wave velocities (km/s)
+ }\item{ rho }{ Sample densities (kg/m^3)
+ }\item{ qp  }{ P attenuation
+ }\item{ qs  }{ S attenuation
+ }\item{ name}{ Model name
+ }\item{ rp  }{ Planet radius
+ }\item{ year}{ Year published
+ }\item{ conr}{ Depth to Conrad (upper crust/lower crust) discontinuity 
+ }\item{ moho}{ Depth to Mohorovicic (top of mantle) discontinuity 
+ }\item{ d410}{ Depth to top of transition zone 
+ }\item{ d520}{ Depth to olivine beta-gamma transition 
+ }\item{ d660}{ Depth to top of lower mantle
+ }\item{ cmb }{ Depth to core-mantle boundary
+ }\item{ icb }{ Depth to inner core boundary}
+}
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+}
+\references{
+  Kennett, B.L.N. Engdahl, E.R. & Buland R., 1995.  Constraints on seismic velocities in the Earth from travel times, Geophys J Int, 122, 108-124 
+}
+\examples{
+data(ak135)
+
+Earthplot(ak135)
+
+Traveltime('P', 60, 0, ak135)
+}
+\keyword{datasets}
