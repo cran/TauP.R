@@ -13,9 +13,7 @@ MakePscan(phase, h, imodel)
   \item{h}{Focal depth (km)}
   \item{imodel}{Planet model returned by ImproveModel}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{List with following elements:
   \item{phase}{Arrival phase}
   \item{h}{Focal depth (km)}
@@ -27,19 +25,8 @@ MakePscan(phase, h, imodel)
   \item{starts}{Starting indices of intervals ( 1:(length(p) - 1) )}
   \item{ends}{Ending indices of intervals ( 2:length(p) )}
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
 \author{Jake Anderson}
-\note{
 
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 
 data(model)

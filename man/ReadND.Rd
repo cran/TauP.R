@@ -35,15 +35,7 @@ ReadCLR(filename, z = 'default')
 \author{
 Jake Anderson
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-
-}
 \examples{
 \dontrun{
 model1 = ReadND('somemodel.nd')

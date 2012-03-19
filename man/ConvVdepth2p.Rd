@@ -15,25 +15,16 @@ ConvVdepth2p(model, z)
   \item{model}{planet model}
   \item{z}{Vertex depth (km)}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{ A list with the following elements:
   \item{prayp}{P wave ray parameter}
   \item{srayp}{S wave ray parameter}
   \item{newz}{Vertex depth}
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{
 Jake Anderson
 }
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
 ConvP2Vdepth, ConvP2Vdepthinv

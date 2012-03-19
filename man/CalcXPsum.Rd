@@ -19,15 +19,9 @@ CalcXPsum(p, v, z, zmin, zmax, novertex)
   releases.  This routine is subordinate to FindDist4p.
 }
 \value{Horizontal travel distance between zmin and zmax (km, flat earth).}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 ### Not a user routine--subordinate to FindDist4p.
 }

@@ -17,27 +17,15 @@ HoneP(oldp, oldangle, direction, phase, h, model)
   \item{h}{Focal depth}
   \item{model}{Planet model}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
   \item{newp}{Correct ray parameter or NaN}
   \item{newangle}{Correct takeoff angle or NaN}
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
+### not a user routine
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

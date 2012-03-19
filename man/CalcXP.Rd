@@ -18,15 +18,9 @@ CalcXP(p, v, z, zmin, zmax, novertex)
   vectorized; this will be corrected in later editions.
 }
 \value{Horizontal distance traveled in layer in flat earth coordinates.}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 #### Not a user routine: subordinate to CalcXPsum.
 }

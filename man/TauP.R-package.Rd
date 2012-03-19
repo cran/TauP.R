@@ -21,10 +21,11 @@ LazyLoad: \tab yes\cr
 }
 
 }
-\note{This package is based on Martin Knapmeyer's TTBox
-  package for MATLAB.  Many substantial changes have been made in order
+\note{This package is based on Martin Knapmeyer's TTBOX
+  package for MATLAB (2007 release, available at http://www.dr-knapmeyer.de/downloads/), and much credit is owed to him for
+  writing this original toolbox.  Many substantial changes have been made in order
   to improve efficiency, and more are planned for future releases.}
-\author{ Jake Anderson, Jonathan Lees}
+\author{Jake Anderson, Jonathan Lees}
 \references{M Knapmeyer. TTBox: A MatLab Toolbox for the Computation of 1D
   Teleseismic Travel Times.  Seismological Research Letters; November/December 2004; v. 75; no. 6; p. 726-733; DOI: 10.1785/gssrl.75.6.726
 

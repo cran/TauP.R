@@ -27,15 +27,8 @@ AnalyzeLVZ(v, vsec, z, rp)
   \item{newz}{New depths sampled (km)}
   \item{criticalz}{Critical depths requiring special treatment (km)}
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
-
-
-\seealso{
-}
 \examples{
 data(model)
 v = model$vp

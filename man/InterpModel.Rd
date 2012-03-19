@@ -10,18 +10,11 @@ InterpModel(model, newz = NULL, preserve = NULL)
   \item{newz}{Depths at which to interpolate (km)}
   \item{preserve}{If NULL (default), TRUE, or 'preserve', preserve discontinuities in interpolated result}
 }
-\details{
-}
+
 \value{Planetary object variable containing data at the desired depths}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 data(model)
 InterpModel(model, 10, preserve = FALSE)

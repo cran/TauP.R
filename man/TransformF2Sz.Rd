@@ -22,9 +22,7 @@ TransformF2Sdist(xf, rp)
   \item{ps}{Round-Earth ray parameter (s/deg)}
   \item{xf}{Flat-Earth horizontal distance (km)}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{  
   TransformF2Sz:
   \item{vs}{Round-Earth velocity (km/s)}
@@ -40,21 +38,10 @@ TransformF2Sdist(xf, rp)
   
 
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
 \author{
 Jake Anderson
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 
 TransformF2Sz(19, 2700, 6371)

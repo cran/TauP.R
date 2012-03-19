@@ -32,15 +32,8 @@ Only one of 'p', 'takeoff' needs to be specified, and may be a vector.
   \item{resp}{Vector of ray parameters for each ray (s/deg).}
   
   }
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+\author{Jake Anderson}
 
 \seealso{
 Traveltime, FindTime4p

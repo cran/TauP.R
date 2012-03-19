@@ -32,21 +32,11 @@ angle may be vectors; other arguments may not.}
   For ConvP2Ang, returns a vector twice the length of 'p', with all
   upward angles corresponding to 'p' followed by all downward angles.
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{
 Jake Anderson
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 data(model)
 ConvP2Ang('P',100,1,model)

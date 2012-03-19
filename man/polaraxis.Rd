@@ -11,19 +11,11 @@ polaraxis(rp = 6371, at = 0:17 * 20)
   \item{rp}{Plot radius}
   \item{at}{Angles to label (degrees)}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{None; graphical side effects only.}
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+\value{None; graphical side effects only.}
+
+\author{Jake Anderson}
+
 
 \seealso{PolarPlot}
 \examples{

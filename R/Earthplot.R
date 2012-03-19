@@ -21,28 +21,28 @@ function(model,prop='vp',image.col=heat.colors(500),n=200,add=FALSE,...)
       options(warn = 0)
       image(x, y, matrix(V,n,n), col = image.col, add = TRUE)
     }
-    PolarPlot(0:360,rp,type='l',method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+    PolarPlot(0:360,rp,type='l',method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     polaraxis(rp)
     if(!is.null(model$conr)){
-      PolarPlot(0:360,rp-model$conr,method=lines,degree=TRUE,geographical=TRUE,lwd=.25,col='black',...)
+      PolarPlot(0:360,rp-model$conr,method=lines,degrees=TRUE,geographical=TRUE,lwd=.25,col='black',...)
     }
     if(!is.null(model$moho)){
-      PolarPlot(0:360,rp-model$moho,method=lines,degree=TRUE,geographical=TRUE,lwd=.25,col='black',...)
+      PolarPlot(0:360,rp-model$moho,method=lines,degrees=TRUE,geographical=TRUE,lwd=.25,col='black',...)
     }
     if(!is.null(model$d410)){
-      PolarPlot(0:360,rp-model$d410,method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+      PolarPlot(0:360,rp-model$d410,method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     }
     if(!is.null(model$d520)){
-      PolarPlot(0:360,rp-model$d520,method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+      PolarPlot(0:360,rp-model$d520,method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     }
     if(!is.null(model$d660)){
-      PolarPlot(0:360,rp-model$d660,method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+      PolarPlot(0:360,rp-model$d660,method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     }
     if(!is.null(model$cmb)){
-      PolarPlot(0:360,rp-model$cmb,method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+      PolarPlot(0:360,rp-model$cmb,method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     }
     if(!is.null(model$icb)){
-      PolarPlot(0:360,rp-model$icb,method=lines,degree=TRUE,geographical=TRUE,col='black',...)
+      PolarPlot(0:360,rp-model$icb,method=lines,degrees=TRUE,geographical=TRUE,col='black',...)
     }
   }
 

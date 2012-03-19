@@ -33,9 +33,8 @@ or use Rayfan instead.
     dist)}
   \item{phase}{Phase of each arrival}
 }
-\references{}
+
 \author{Jake Anderson}
-\note{}
 
 \seealso{
 Rayfan, Traveltime, Earthplot

@@ -14,21 +14,16 @@ FindP4Dist(phase, deltalist, h, model, pscan = NULL)
   \item{model}{Planet model}
   \item{pscan}{Output of MakePscan}
 }
-\details{
-}
+
 \value{List with following values:
   \item{p}{Vector of ray parameters (s/deg)}
   \item{a}{Vector of takeoff angles (deg)}
   \item{d}{Vector of corresponding epicentral distances (deg)}
   \item{deltain}{Vector of target epicentral distances (deg)}
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
-\seealso{
-}
+
 \examples{
 data(model)
 FindP4Dist('P', 60, 100, model)

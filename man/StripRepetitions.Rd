@@ -9,18 +9,11 @@ StripRepetitions(phase)
 \arguments{
   \item{phase}{Wave arrival phase (e.g. 'P', 'SKS2') }
 }
-\details{
-}
+
 \value{List including remaining (unrepeated) phase and number of repetitions.}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 StripRepetitions('PKP5')
 }

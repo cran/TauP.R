@@ -25,14 +25,8 @@ provided, FindTime4p is not vectorized.
   \item{vdep}{Vertex radius (km)}
   \item{resp}{Ray parameter (s/deg)}
   }
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
 
+\author{Jake Anderson}
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{Traveltime, FindDist4pn}
@@ -46,5 +40,5 @@ FindTime4p('P', 100, NaN, model, anglemode = 'angle', 40)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ misc}
+

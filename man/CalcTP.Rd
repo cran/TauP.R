@@ -17,15 +17,8 @@ CalcTP(p, v, z, zmin, zmax, novertex = 0)
   corrected in later versions.  This is a subordinate routine to CalcTPsum.
 }
 \value{Traveltime between zmin and zmax (s).}
-\references{
-}
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 ### Can only be called from CalcTPsum
 }

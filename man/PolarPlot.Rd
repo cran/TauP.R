@@ -21,23 +21,11 @@ PolarPlot(theta, r, degrees = FALSE, method = plot, geographical = FALSE, ...)
 %%     ~~Describe \code{\dots} here~~
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{None; graphical side effects only.}
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 PolarPlot(pi/8 * 1:16, 0:15, method = plot)
 }

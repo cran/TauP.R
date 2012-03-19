@@ -10,21 +10,14 @@ SlopeInt(v, z)
   \item{v}{2-element vector of velocities (km/s)}
   \item{z}{2-element vector of depths (km)}
 }
-\details{
-}
+
 \value{List with the following elements:
   \item{g}{Gradient of velocity-depth linear approximation (km/s / km)}
   \item{v0}{Constant term of velocity-depth linear approximation (km/s)}
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 SlopeInt(c(5, 5.1), c(20, 22))
 

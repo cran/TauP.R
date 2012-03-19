@@ -19,15 +19,9 @@ LinInterp(xin, yin, xout, mode = 'data')
   of 'xout'.
 }
 \value{ Vector of interpolated y-values corresponding to xout. }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 xin = c(1, 2, 3, 3, 4, 5)
 yin = c(0, 0, 0, 1, 1, 1)

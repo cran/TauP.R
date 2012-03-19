@@ -28,10 +28,7 @@ Planet model using the data from the IASP91 1-D model.
     }\item{ icb }{ Depth to inner core boundary}
   }
 }
-\details{
-}
-\source{
-}
+
 \references{
   Kennet BLN, Engdahl ER, 1991.  Traveltimes for global earthquake location and phase identification.  Geophysical Journal International 105(2) 429-465.
 }

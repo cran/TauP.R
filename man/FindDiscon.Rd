@@ -10,15 +10,8 @@ FindDiscon(model)
 }
 \details{Note that this returns radii, not depths!}
 \value{Vector of discontinuity radii (km)}
-\references{
-}
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 data(model)
 FindDiscon(model)

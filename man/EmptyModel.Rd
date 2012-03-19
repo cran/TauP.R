@@ -6,18 +6,11 @@
 \usage{
 EmptyModel()
 }
-\details{
-}
+
 \value{Planet model containing no information.}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 EmptyModel()
 }

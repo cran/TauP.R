@@ -13,22 +13,15 @@ FindRoots(phase, delta, h, model, startalpha, startdist)
   \item{startalpha}{Takeoff angle interval containing root (degrees) }
   \item{startdist}{Epicentral distance interval containing root (degrees) }
 }
-\details{
-}
+
 \value{List with the following elements:
   \item{p}{Solution ray parameter (s/deg)}
   \item{a}{Solution takeoff angle (deg)}
   \item{d}{Solution epicentral distance (deg)}
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 data(model)
 phase = 'P'

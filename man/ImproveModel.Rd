@@ -17,15 +17,9 @@ ImproveModel(oldmodel)
   \item{newmodel}{Improved model, including criticalrays element}
   \item{newdepths}{Identified critical depths}  
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 data(model)
 imodel = ImproveModel(model)

@@ -11,23 +11,16 @@ FindPrange(phase, imodel, h, dangle)
   \item{h}{Focal depth (km)}
   \item{dangle}{Angle resolution of output (deg)}
 }
-\details{
-}
+
 \value{List with following elements:
   \item{angles}{Vector of takeoff angles spaced 'dangle' apart in
     acceptable range (deg)}
   \item{minangle}{Minimum takeoff angle for 'phase'}
   \item{maxangle}{Maximum takeoff angle for 'phase'}
 }
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 data(model)
 imodel = ImproveModel(model)$newmodel

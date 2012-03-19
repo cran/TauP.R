@@ -18,15 +18,9 @@ CalcTPsum(p, v, z, zmin, zmax, novertex)
   is not intended for human use.
 }
 \value{Traveltime along ray leg (s).}
-\references{
-}
+
 \author{ Jake Anderson }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 ##### Subordinate routine
 }

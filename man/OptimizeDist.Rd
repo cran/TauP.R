@@ -1,6 +1,6 @@
 \name{OptimizeDist}
 \alias{OptimizeDist}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{Find Extrema in D(a)}
 \description{Engine routine that identifies local extrema in the D(a)
   (epicentral distance/takeoff angle) function.
@@ -25,21 +25,11 @@ OptimizeDist(alphalimit, deltalimit, phase, h, imodel)
   \item{extremp}{Ray parameter for extremalpha (s/deg)}
   \item{extremdelta}{Identified extreme epicentral distance}
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{Jake Anderson}
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
-
+### not a user routine
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

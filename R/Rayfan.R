@@ -24,10 +24,10 @@ function(phaselist, h, model, deltalist = 1:17 * 20, minp = .5, plot = TRUE, add
     w = which(!is.na(x$dist) & is.finite(x$dist))
     for(j in w){
       if(round(x$dist[j],2) %in% round(deltalist,2)) {
-        PolarPlot(x$segx[[j]], rp-x$segz[[j]], method=lines, degree=TRUE, geographical=TRUE, col = col[i])
+        PolarPlot(x$segx[[j]], rp-x$segz[[j]], method=lines, degrees=TRUE, geographical=TRUE, col = col[i])
       }
       if(mirror & (360 - round(x$dist[j],2)) %in% round(deltalist,2)){
-        PolarPlot(-x$segx[[j]], rp-x$segz[[j]], method=lines, degree=TRUE, geographical=TRUE, col = col[i])
+        PolarPlot(-x$segx[[j]], rp-x$segz[[j]], method=lines, degrees=TRUE, geographical=TRUE, col = col[i])
       }
     }
     outp = c(outp, p)

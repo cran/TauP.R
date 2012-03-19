@@ -28,11 +28,7 @@ Planet model using the data from the ak135 1-D model.
     }\item{ icb }{ Depth to inner core boundary}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-}
+
 \references{Kennett, B.L.N. Engdahl, E.R. & Buland R., 1995.  Constraints on
   seismic velocities in the Earth from travel times, Geophys J Int, 122, 108-124 }
 \examples{

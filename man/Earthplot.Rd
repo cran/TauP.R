@@ -36,21 +36,13 @@ Plots lines illustrating discontinuities with background colors
 indicating one of vp, vs, or density.
 }
 \value{None, plots only.
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{
 Jake Anderson
 }
-\note{
-%%  ~~further notes~~
-}
+
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
