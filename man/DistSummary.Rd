@@ -5,13 +5,15 @@
   Determine arrival times and information for all major phases arriving
   at a certain epicentral distance, and plot ray trajectories.}
 \usage{
-DistSummary(delta, h, model, phaselist = 'default', prop = "vp", image.col = heat.colors(500), n = 200, ...)
+DistSummary(delta, h, model, phaselist = 'default', prop = "vp",
+image.col = heat.colors(500), n = 200, ...)
 }
 \arguments{
   \item{delta}{Epicentral distance (degrees)}
 \item{h}{Focal depth (km)}
 \item{model}{Planet model}
-\item{phaselist}{Either 'default' for all available phases, or a character vector including desired phases}
+\item{phaselist}{Either 'default' for all available phases, or a
+  character vector including desired phases}
 \item{prop}{Property by which to scale planet image: one of 'vp', 'vs', 'rho'.}
 \item{image.col}{Vector of colors for image}
 \item{n}{Resolution of image (pixels per side)}
@@ -44,7 +46,7 @@ data(model)
 
 # for an event occurring 100 degrees away at a depth of 40 km:
 
-DistSummary(delta = 100, h = 40, model = model)
+DistSummary(delta = 100, h = 40, model = model, phaselist = c('SKS', 'SKKS'))
 }
 \keyword{ misc }
 

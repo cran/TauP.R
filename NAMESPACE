@@ -3,3 +3,7 @@
 
 # Export all names
 exportPattern(".")
+# import some functions from other packages
+importFrom("grDevices", "heat.colors")
+importFrom("graphics", "image", "lines", "par", "plot", "text")
+importFrom("stats", "approx", "uniroot")

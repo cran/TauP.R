@@ -5,10 +5,13 @@
 Ray Fan
 }
 \description{
-Calculate travel times and plot ray trajectories of phase(s) from focus to receiver(s).
+Calculate travel times and plot ray trajectories of phase(s) from focus
+to receiver(s).
 }
 \usage{
-Rayfan(phaselist, h, model, deltalist = 1:17 * 20, minp = 0.5, plot = TRUE, add = TRUE, col = rep("black", length(phaselist)), verbose = FALSE, mirror = FALSE)
+Rayfan(phaselist, h, model, deltalist = 1:17 * 20, minp = 0.5, plot =
+TRUE, add = TRUE, col = rep("black", length(phaselist)), verbose =
+FALSE, mirror = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

@@ -30,7 +30,9 @@ Planet model using the data from the IASP91 1-D model.
 }
 
 \references{
-  Kennet BLN, Engdahl ER, 1991.  Traveltimes for global earthquake location and phase identification.  Geophysical Journal International 105(2) 429-465.
+  Kennet BLN, Engdahl ER, 1991.  Traveltimes for global earthquake
+  location and phase identification.  Geophysical Journal International
+  105(2) 429-465. doi:10.1111/j.1365-246X.1991.tb06724.x
 }
 \examples{
 data(iasp91)

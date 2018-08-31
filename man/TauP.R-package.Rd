@@ -2,40 +2,45 @@
 \alias{TauP.R-package}
 \alias{TauP.R}
 \docType{package}
-\title{Teleseismic Ray Tracing and Arrival Times}
-
-\description{This package facilitates calculation of travel distances
-  and times of global seismic phases using 1-D planet models.  Preset
-  Earth models are included, but users may create their own or use other
-  models (for Earth, or any planet/moon).  Basic graphing functions are
-  included.  This package has been validated using the Java TauP package (Crotwell et al, 1999.)}
-
+\title{
+\packageTitle{TauP.R}
+}
+\description{
+\packageDescription{TauP.R}
+}
 \details{
-\tabular{ll}{
-Package: \tab TauP.R\cr
-Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2010-12-16\cr
-License: \tab GPL\cr
-LazyLoad: \tab yes\cr
+
+The DESCRIPTION file:
+\packageDESCRIPTION{TauP.R}
+\packageIndices{TauP.R}
+~~ An overview of how to use the package, including the most important ~~
+~~ functions ~~
+}
+\author{
+\packageAuthor{TauP.R}
+
+Maintainer: \packageMaintainer{TauP.R}
+}
+\note{This package is based on Martin Knapmeyer's TTBOX package for
+  MATLAB (2007 release, available at
+  http://www.dr-knapmeyer.de/downloads/), and much credit is owed to him
+  for writing this original toolbox. I have made some substantial
+  changes, mainly to improve efficiency.
 }
 
-}
-\note{This package is based on Martin Knapmeyer's TTBOX
-  package for MATLAB (2007 release, available at http://www.dr-knapmeyer.de/downloads/), and much credit is owed to him for
-  writing this original toolbox.  Many substantial changes have been made in order
-  to improve efficiency, and more are planned for future releases.}
-\author{Jake Anderson, Jonathan Lees}
-\references{M Knapmeyer. TTBox: A MatLab Toolbox for the Computation of 1D
+\references{
+M Knapmeyer. TTBox: A MatLab Toolbox for the Computation of 1D
   Teleseismic Travel Times.  Seismological Research Letters; November/December 2004; v. 75; no. 6; p. 726-733; DOI: 10.1785/gssrl.75.6.726
 
 Crotwell, H. P., T. J. Owens, and J. Ritsema (1999). The TauP Toolkit: Flexible seismic travel-time and ray-path utilities, Seismological Research Letters 70, 154 160.
 }
 
-
 \keyword{ package }
 \seealso{
-RSEIS, GEOmap
+  RSEIS, GEOmap
+  ~~ Optional links to other man pages, e.g. ~~
+ \code{\link[RSEIS:RSEIS-package]{RSEIS}} 
+ \code{\link[GEOmap:GEOmap-package]{GEOmap}} 
 }
 \examples{
 data(model)
@@ -43,6 +48,4 @@ data(model)
 Rayfan('P', 500, model)
 
 Traveltime('SKKS', 200, 10, model)
-
 }
-

@@ -1,6 +1,6 @@
 DistSummary <-
 function(delta,h,model,phaselist = 'default', prop='vp',image.col=heat.colors(500),n=200,...){
-  if(phaselist == 'default'){
+  if(phaselist[1] == 'default'){
     phaselist = c(
       'PS',
       'SP',

@@ -30,7 +30,8 @@ Planet model using the data from the ak135 1-D model.
 }
 
 \references{Kennett, B.L.N. Engdahl, E.R. & Buland R., 1995.  Constraints on
-  seismic velocities in the Earth from travel times, Geophys J Int, 122, 108-124 }
+  seismic velocities in the Earth from travel times, Geophys J Int, 122,
+  108-124 <doi:10.1111/j.1365-246X.1995.tb03540.x> }
 \examples{
 data(model)
 
